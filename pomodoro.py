@@ -76,7 +76,7 @@ class PomodoroApp:
 
         self.continue_btn = tk.Button(btn_frame, text="▶️ Continue", command=self.continue_timer,
                                       font=("Arial", 14), bg="#90ee90", width=8)
-        self.continue_btn.grid(row=0, column=2, padx=5)
+        self.continue_btn.grid(row=0, column=2, padx=0)
 
         self.reset_btn = tk.Button(btn_frame, text="🔄 Reset", command=self.reset_timer,
                                    font=("Arial", 14), bg="#add8e6", width=8)
